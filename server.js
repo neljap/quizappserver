@@ -12,14 +12,14 @@ const app = express()
 
 
 /** app middlewares */
-app.use(morgan('tiny'));
+// app.use(morgan('tiny'));
 app.use(cors());
 app.use(express.json());
 config();
 
 
 /** appliation port */
-const port = process.env.PORT || 8080;
+const port = 5000;
 
 
 /** routes */
